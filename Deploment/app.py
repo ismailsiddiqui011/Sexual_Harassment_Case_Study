@@ -3,8 +3,8 @@ import numpy as np
 import pickle
 import pre_process
 
-vect = pickle.load(open('bow.pkl', 'rb')) # Loading Count Vectorizor
-lgr = pickle.load(open('lgr.sav', 'rb')) # Loading Model
+vect = pickle.load(open('https://github.com/ismailsiddiqui011/Sexual_Harassment_Case_Study/blob/main/Deploment/bow.pkl', 'rb')) # Loading Count Vectorizor
+lgr = pickle.load(open('https://github.com/ismailsiddiqui011/Sexual_Harassment_Case_Study/tree/main/Deploment/lgr.sav', 'rb')) # Loading Model
 
 st.title('Sexual Harassment')
 st.image('https://www.talkingnibs.com/wp-content/uploads/2018/03/MeToo-2.jpg', width = 375)
